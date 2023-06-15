@@ -1,4 +1,4 @@
-# EXERCICE 5
+# CORRECTION DE L'EXERCICE 5
 
 # Demande à l'utilisateur de rentrer les valeurs
 # des nombres, pour à la fin les additionner et
