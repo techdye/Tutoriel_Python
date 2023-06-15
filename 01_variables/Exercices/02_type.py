@@ -8,6 +8,6 @@ c = True
 
 # _______________________
 
-print(type(a))
-print(type(b))
-print(type(c))
+
+
+# _______________________
