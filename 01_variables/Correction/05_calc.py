@@ -16,7 +16,7 @@ result = a + b
 
 print(f"Le résultat est {result}.")
 
-# ____Second méthode____
+# ____Seconde méthode_____
 
 a = int(input("Premier nombre : "))
 b = int(input("Second nombre : "))
