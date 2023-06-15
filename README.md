@@ -1,4 +1,4 @@
-# Tutoriel_Python
+# Tutoriel Python
 
 Voici les fichiers pour apprendre Python en entier.
 
