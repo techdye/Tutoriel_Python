@@ -72,6 +72,6 @@ delete = 23
 print(f"Vous avez {account} euros, mais après vous aurez {account - delete} euros.")
 
 
-# Pour récuppérer une valeur renseignée par l'utilisateur, on utilise l'input.
+# Pour récuppérer une valeur renseignée par l'utilisateur, on utilise la fonction input.
 
 money = int(input("Argent : "))
