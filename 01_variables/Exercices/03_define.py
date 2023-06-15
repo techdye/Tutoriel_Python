@@ -14,3 +14,75 @@ print(f"Ancienne valeur : {a}")
 # _______________________
 
 print(f"Nouvelle valeur : {a}")
+
+print("-" * 25)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print(f"Ancienne valeur : {a}")
+
+# _______________________
+
+a = "Hello World!"
+
+# _______________________
+
+print(f"Nouvelle valeur : {a}")

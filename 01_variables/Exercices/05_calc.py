@@ -12,3 +12,56 @@ b = 0
 
 
 # _______________________
+
+print("-" * 25)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a = int(input("Premier nombre : "))
+b = int(input("Second nombre : "))
+
+result = a + b
+
+print(f"Le résultat est {result}.")
