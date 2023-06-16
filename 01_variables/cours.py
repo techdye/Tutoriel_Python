@@ -4,8 +4,11 @@
 # Il y a trois principaux types de variables.
 
 text = "Hello World!"  # str
+
 number = 100  # int
-boolean = True  # bool
+
+booleanTrue = True  # bool (Vrai)
+booleanFalse = False  # bool (Faux)
 
 # Le type est défini dynamiquement.
 
@@ -14,7 +17,7 @@ boolean = True  # bool
 
 print(type(text))  # <class 'str'>
 print(type(number))  # <class 'int'>
-print(type(boolean))  # <class 'bool'>
+print(type(booleanTrue))  # <class 'bool'>
 
 
 # On peut redéfinir une variable avec un autre type. 
@@ -29,6 +32,11 @@ number = 10
 number = number + 10
 print(number)  # 20
 
+# La variable n'est pas réassignée
+
+number = 10
+number + 10
+print(number)  # 10
 
 # Plus simple en mettant le signe et un égale
 
@@ -52,7 +60,7 @@ except:
 # On utilise des fonctions qui utilisent le nom de leur type.
 
 number = "32"
-number = int(32)
+number = int(number)
 
 calcul = number * 5
 
