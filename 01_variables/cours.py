@@ -3,18 +3,18 @@
 # Les variables nous permettent de garder des valeurs pour les réutiliser plus tard.
 # Il y a trois principaux types de variables.
 
-text = "Hello World!" # str
-number = 100 # int
-boolean = True # bool
+text = "Hello World!"  # str
+number = 100  # int
+boolean = True  # bool
 
 # Le type est défini dynamiquement.
 
 
 # En faisant print avec type, on peut récupérer le type d'un variable.
 
-print(type(text)) # <class 'str'>
-print(type(number)) # <class 'int'>
-print(type(boolean)) # <class 'bool'>
+print(type(text))  # <class 'str'>
+print(type(number))  # <class 'int'>
+print(type(boolean))  # <class 'bool'>
 
 
 # On peut redéfinir une variable avec un autre type. 
@@ -27,14 +27,14 @@ variable = 100
 
 number = 10
 number = number + 10
-print(number) # 20
+print(number)  # 20
 
 
 # Plus simple en mettant le signe et un égale
 
 number = 10
 number += 10
-print(number) # 20
+print(number)  # 20
 
 
 # Par contre, le langage est très typé, impossible de les additionner entre-eux.
