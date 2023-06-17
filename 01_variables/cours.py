@@ -12,6 +12,7 @@ booleanFalse = False  # bool (Faux)
 
 # Le type est défini dynamiquement.
 
+dynamic = 10
 
 # En faisant print avec type, on peut récupérer le type d'un variable.
 
@@ -23,7 +24,9 @@ print(type(booleanTrue))  # <class 'bool'>
 # On peut redéfinir une variable avec un autre type. 
 
 variable = "Hello World!"
+print(type(variable))  # <class 'str'>
 variable = 100
+print(type(variable))  # <class 'int'>
 
 
 # Pour faire des opérations, on redéfini la variable.
