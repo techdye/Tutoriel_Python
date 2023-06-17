@@ -57,15 +57,17 @@ try:
 except:
     
     print("ERREUR - IMPOSSIBLE DE CONVERTIR.")
-    
+
 
 # Pour additionner plusieurs types entre eux, il faut convertir avant.
 # On utilise des fonctions qui utilisent le nom de leur type.
 
 number = "32"
+print(type(number))  # <class 'str'>
 number = int(number)
-
-calcul = number * 5
+print(type(number))  # <class 'int'>
+number = str(number)
+print(type(number))  # <class 'str'>
 
 
 # Ça marche aussi avec les chaînes de caractères
