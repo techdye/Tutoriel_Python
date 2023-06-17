@@ -29,7 +29,7 @@ variable = 100
 print(type(variable))  # <class 'int'>
 
 
-# Pour faire des opérations, on redéfini la variable.
+# Pour faire des opérations, on redéfinit la variable.
 
 number = 10
 number = number + 10
@@ -56,7 +56,7 @@ try:
     
 except:
     
-    print("Tu as 0 ami.")
+    print("ERREUR - IMPOSSIBLE DE CONVERTIR.")
     
 
 # Pour additionner plusieurs types entre eux, il faut convertir avant.
